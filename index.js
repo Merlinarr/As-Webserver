@@ -191,11 +191,11 @@
             })())
           ) || r)
       ) || r)(),
-      S = new l.a("Shooting Stars", {
+      S = new l.a("Welcome", {
         color: "#dc2c5a",
         size: b.a.isMobile ? 0.4 : 0.8,
       });
-    (S.position.x -= 0.5 * S.basePosition), (S.position.y -= 5);
+    (S.position.x -= 0.5 * S.basePosition), (S.position.y -= 2.5);
     P.add(S);
     var _ = {
         width: 0.05,
