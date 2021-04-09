@@ -8,7 +8,7 @@ var now = +new Date();
 var oneDay = 1000;
 var value = 20;
 
-for (var i = 0; i < 60; i++) {
+for (var i = 0; i < 30; i++) {
   data.push(randomData());
 }
 
