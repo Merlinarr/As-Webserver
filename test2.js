@@ -7,7 +7,7 @@ var data = [];
 var now = +new Date();
 var oneDay = 1000;
 
-for (var i = 0; i < 50; i++) {
+for (var i = 0; i < 60; i++) {
   data.push(randomData());
 }
 
