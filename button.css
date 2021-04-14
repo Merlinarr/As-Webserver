@@ -33,9 +33,9 @@
 button::before {
   content: "";
   border-radius: 100px;
-  min-width: calc(100px + 12px);
-  min-height: calc(20px + 12px);
-  border: 2px solid #00ffcb;
+  min-width: calc(120px + 12px);
+  min-height: calc(40px + 12px);
+  border: 1px solid #00ffcb;
   box-shadow: 0 0 5px rgba(0, 255, 203, 0.64);
   position: absolute;
   top: 50%;
