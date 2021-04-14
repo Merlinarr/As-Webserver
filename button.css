@@ -61,7 +61,7 @@ button::after {
   width: 30px;
   height: 30px;
   border-radius: 100%;
-  border: 3px solid #00ffcb;
+  border: 1px solid #00ffcb;
   position: absolute;
   z-index: -1;
   top: 50%;
@@ -78,13 +78,13 @@ button:focus::after {
 
 @keyframes ring {
   0% {
-    width: 5px;
-    height: 5px;
+    width: 30px;
+    height: 30px;
     opacity: 1;
   }
   100% {
-    width: 70px;
-    height: 70px;
+    width: 120px;
+    height: 120px;
     opacity: 0;
   }
 }
