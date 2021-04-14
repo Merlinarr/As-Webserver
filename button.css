@@ -22,7 +22,7 @@
   );
   border: none;
   border-radius: 1000px;
-  box-shadow: 12px 12px 24px rgba(79, 209, 197, 0.64);
+  box-shadow: 3px 3px 6px rgba(79, 209, 197, 0.64);
   transition: all 0.3s ease-in-out 0s;
   cursor: pointer;
   outline: none;
@@ -33,9 +33,9 @@
 button::before {
   content: "";
   border-radius: 100px;
-  min-width: calc(50px + 12px);
-  min-height: calc(15px + 12px);
-  border: 10px solid #00ffcb;
+  min-width: calc(100px + 12px);
+  min-height: calc(20px + 12px);
+  border: 2px solid #00ffcb;
   box-shadow: 0 0 5px rgba(0, 255, 203, 0.64);
   position: absolute;
   top: 50%;
